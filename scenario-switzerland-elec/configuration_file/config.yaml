@@ -1,0 +1,52 @@
+production pathways:
+  wind:
+    production volume:
+      variable: Production|wind
+
+    ecoinvent alias: 
+      name: electricity production, wind, 1-3MW turbine, onshore
+      operator: contains
+      reference product: electricity, high voltage
+      exists in original database: True
+      regionalize: True     
+
+
+production pathways:
+  hydro:
+    production volume:
+      variable: Production|hydro
+    ecoinvent alias:
+      name: electricity production, hydro, run-of-river
+      operator: contains
+      reference product: electricity, high voltage
+      exists in original database: True
+      regionalize: True  
+
+
+production pathways:
+  nuclear:
+    production volume:
+      variable: Production|nuclear
+
+    ecoinvent alias:
+      name: electricity production, nuclear
+      operator: contains
+      reference product: electricity, high voltage
+      exists in original database: True
+      regionalize: True 
+
+markets:
+    # name of the market dataset
+  - name: market for electricity, high voltage
+    # reference product of the market dataset
+    reference product: electricity, high voltage
+    # unit of the market dataset
+    unit: kilowatt hour
+    # names of datasets that should compose the market
+    includes:
+      - wind
+      - nuclear
+      - hydro
+
+
+ 

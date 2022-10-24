@@ -19,7 +19,7 @@ production pathways:
 
 markets:
     # name of the market dataset
-  - name: market for electricity, high voltage
+  - name: market for electricity, high voltage (AWESOME)
     # reference product of the market dataset
     reference product: electricity, high voltage
     # unit of the market dataset

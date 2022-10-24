@@ -9,17 +9,7 @@ production pathways:
       reference product: electricity, high voltage
       exists in original database: True
 
-production pathways:
-  hydro:
-    production volume:
-      variable: Production|hydro
-      
-    ecoinvent alias:
-      name: electricity production, hydro, run-of-river
 
-      reference product: electricity, high voltage
-      exists in original database: True    
-      
 
 
 production pathways:
@@ -45,7 +35,7 @@ markets:
     includes:
       - wind
       - nuclear
-      - hydro
+     
       
     replaces:
       - name: market for ammonia, anhydrous, liquid

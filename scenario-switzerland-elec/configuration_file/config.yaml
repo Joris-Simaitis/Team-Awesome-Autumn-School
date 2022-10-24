@@ -9,7 +9,6 @@ production pathways:
       exists in original database: True
 
 
-production pathways:
   nuclear:
     production volume:
       variable: Production|nuclear

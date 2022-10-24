@@ -1,0 +1,7 @@
+model;pathway;scenario;region;variables;unit;2020;2025;2030
+image;SSP2-Base;Business As Usual;CH;Production|hydro;kWh;50000000;60000000;70000000
+image;SSP2-Base;Business As Usual;CH;Production|wind;kWh;70000000;80000000;90000000
+image;SSP2-Base;Business As Usual;CH;Production|nuclear;kWh;80000000;70000000;60000000
+image;SSP2-Base;Renewable;CH;Production|hydro;kWh;50000000;100000000;150000000
+image;SSP2-Base;Renewable;CH;Production|wind;kWh;70000000;140000000;210000000
+image;SSP2-Base;Renewable;CH;Production|nuclear;kWh;80000000;40000000;20000000

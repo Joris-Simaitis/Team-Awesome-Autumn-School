@@ -4,7 +4,7 @@ production pathways:
       variable: Production|wind
     ecoinvent alias: 
       name: electricity production, wind, 1-3MW turbine, onshore, renewable energy products
-      reference product: electricity, high voltage
+      reference product: electricity, high voltage, renewable energy products
       exists in original database: True
 
 

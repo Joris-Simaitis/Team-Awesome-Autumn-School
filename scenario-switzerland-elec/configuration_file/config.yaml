@@ -36,13 +36,6 @@ markets:
       - wind
       - nuclear
      
-      
-    replaces:
-      - name: market for ammonia, anhydrous, liquid
-      reference product: ammonia, anhydrous, liquid
-      replaces in: 
-        - location: DE
-     
 
 
  

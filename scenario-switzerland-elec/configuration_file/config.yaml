@@ -37,9 +37,9 @@ production pathways:
 
 markets:
     # name of the market dataset
-  - name: market for electricity, high voltage
+  - name: market for electricity, low voltage
     # reference product of the market dataset
-    reference product: electricity, high voltage
+    reference product: electricity, low voltage
     # unit of the market dataset
     unit: kilowatt hour
     # names of datasets that should compose the market
